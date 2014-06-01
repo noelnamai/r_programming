@@ -1,4 +1,4 @@
-# 1. Air Pollution
+# Programming Assignment 1: Air Pollution
 
 ## Introduction
 
@@ -16,8 +16,6 @@ The zip file contains 332 comma-separated-value (CSV) files containing pollution
 * nitrate: the level of nitrate PM in the air on that date (measured in micrograms per cubic meter)
 
 For this programming assignment you will need to unzip this file and create the directory 'specdata'. Once you have unzipped the zip file, do not make any modifications to the files in the 'specdata' directory. In each file you'll notice that there are many days where either sulfate or nitrate (or both) are missing (coded as NA). This is common with air pollution monitoring data in the United States.
-
-=====================================================
 
 ## [pollutantmean.R](https://github.com/noelnamai/r_programming/blob/master/pollutantmean.R)
 
@@ -41,8 +39,6 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
 ```
 
 You can see some [example output](https://d396qusza40orc.cloudfront.net/rprog%2Fdoc%2Fpollutantmean-demo.html) from this function. The function that you write should be able to match this output. Please save your code to a file named pollutantmean.R.
-
-=====================================================
 
 ## [complete.R](https://github.com/noelnamai/r_programming/blob/master/complete.R)
 
@@ -68,8 +64,6 @@ complete <- function(directory, id = 1:332) {
 
 You can see some [example output](https://d396qusza40orc.cloudfront.net/rprog%2Fdoc%2Fcomplete-demo.html) from this function. The function that you write should be able to match this output. Please save your code to a file named complete.R. To run the submit script for this part, make sure your working directory has the file complete.R in it.
 
-=====================================================
-
 ## [corr.R](https://github.com/noelnamai/r_programming/blob/master/corr.R)
 
 Write a function that takes a directory of data files and a threshold for complete cases and calculates the correlation between sulfate and nitrate for monitor locations where the number of completely observed cases (on all variables) is greater than the threshold. The function should return a vector of correlations for the monitors that meet the threshold requirement. If no monitors meet the threshold requirement, then the function should return a numeric vector of length 0. A prototype of this function follows
@@ -90,3 +84,5 @@ corr <- function(directory, threshold = 0) {
 
 For this function you will need to use the 'cor' function in R which calculates the correlation between two vectors. Please read the help page for this function via '?cor' and make sure that you know how to use it.
 You can see some [example output](https://d396qusza40orc.cloudfront.net/rprog%2Fdoc%2Fcorr-demo.html) from this function. The function that you write should be able to match this output. Please save your code to a file named corr.R. To run the submit script for this part, make sure your working directory has the file corr.R in it.
+
+# 2. 
