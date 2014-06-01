@@ -1,4 +1,6 @@
-## Programming Assignment 1: Air Pollution
+# Air Pollution
+
+=====================================================
 
 ## Introduction
 
