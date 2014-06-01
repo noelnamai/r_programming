@@ -1,4 +1,4 @@
-# Programming Assignment 1: Air Pollution
+## Programming Assignment 1: Air Pollution
 
 ## Introduction
 
@@ -19,7 +19,7 @@ For this programming assignment you will need to unzip this file and create the 
 
 =====================================================
 
-## Part 1: [pollutantmean.R]()
+## [pollutantmean.R](https://github.com/noelnamai/r_programming/blob/master/pollutantmean.R)
 
 Write a function named 'pollutantmean' that calculates the mean of a pollutant (sulfate or nitrate) across a specified list of monitors. The function 'pollutantmean' takes three arguments: 'directory', 'pollutant', and 'id'. Given a vector monitor ID numbers, 'pollutantmean' reads that monitors' particulate matter data from the directory specified in the 'directory' argument and returns the mean of the pollutant across all of the monitors, ignoring any missing values coded as NA. A prototype of the function is as follows:
 
@@ -44,7 +44,7 @@ You can see some [example output](https://d396qusza40orc.cloudfront.net/rprog%2F
 
 =====================================================
 
-## Part 2: [complete.R]()
+## [complete.R](https://github.com/noelnamai/r_programming/blob/master/complete.R)
 
 Write a function that reads a directory full of files and reports the number of completely observed cases in each data file. The function should return a data frame where the first column is the name of the file and the second column is the number of complete cases. A prototype of this function follows
 
@@ -70,7 +70,7 @@ You can see some [example output](https://d396qusza40orc.cloudfront.net/rprog%2F
 
 =====================================================
 
-## Part 3: [corr.R]()
+## [corr.R](https://github.com/noelnamai/r_programming/blob/master/corr.R)
 
 Write a function that takes a directory of data files and a threshold for complete cases and calculates the correlation between sulfate and nitrate for monitor locations where the number of completely observed cases (on all variables) is greater than the threshold. The function should return a vector of correlations for the monitors that meet the threshold requirement. If no monitors meet the threshold requirement, then the function should return a numeric vector of length 0. A prototype of this function follows
 
